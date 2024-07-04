@@ -1,0 +1,1055 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noize</title>
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.green.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="css/image/icon/icon-2.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/Noize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="js/jquery.js"></script>
+    <script src="js/Noize-jquery.js"></script>
+    <script src="https://kit.fontawesome.com/1daaf569d9.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+</head>
+
+<body>
+    <div id="sitemap">
+        <div id="sitemapscrrol"></div>
+    </div>
+    <div id="gotop" class="far fa-arrow-alt-circle-up"></div>
+    <nav id="menu" data-aos="fade-down">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div id="menu-icon-page"><img src="css/image/icon/icon+.png" alt=""></div>
+                    <div class="dropright">
+                        <span id="icon-menu" data-toggle="dropdown" tabindex="0"><i
+                                class="fas fa-align-left"></i></span>
+                        <div class="dropdown-menu">
+                            <a href="#" class="dropdown-item">خانه</a>
+                            <a href="#ticket" class="dropdown-item">خرید بلیط</a>
+                            <a href="#post" class="dropdown-item">سازها</a>
+                            <a href="#artist" class="dropdown-item">آرتیست ها</a>
+                            <a href="#footer" class="dropdown-item">درباره ما</a>
+                            <a href="#footer" class="dropdown-item">ارتباط با ما</a>
+                        </div>
+                    </div>
+                    <div id="max-menu">
+                        <ul>
+                            <li><a href="#" class="fromright">خانه</a></li>
+                            <li><a href="#ticket" class="fromright ticket">خرید بلیط</a></li>
+                            <li><a href="#post" class="fromright instran">سازها</a></li>
+                            <li><a href="#artist" class="fromright artist">آرتیست ها</a></li>
+                            <li><a href="#footer" class="fromright about">درباره ما</a></li>
+                            <li><a href="#footer" class="fromright call">تماس با ما</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header id="head">
+        <div class="container">
+            <div class="row">
+                <div id="slider" class="carousel slide" data-ride="carousel" data-pause="false">
+                    <ol class="carousel-indicators">
+                        <li data-target="#slider" data-slide-to="0" class="active"></li>
+                        <li data-target="#slider" data-slide-to="1"></li>
+                        <li data-target="#slider" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="css/image/header/header-1.jpg" class="d-block w-100">
+                            <div id="text-header">
+                                <img src="css/image/icon/page-icon.png" alt="">
+                                <h4>“راک”</h4>
+                                <h3>ماموریت یک باره</h3>
+                                <small><time>5 تیر</time>/ سیتی سنتر اصفهان</small>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="css/image/header/header-2.jpg" class="d-block w-100">
+                            <div id="text-header">
+                                <img src="css/image/icon/page-icon.png" alt="">
+                                <h4>برگزاری کنسرت در</h4>
+                                <h3>سراسر ایران</h3>
+                                <small><a href="#" title="آخرین اخبار">برای باخبر شدن از آخرین خبر کلیک کنید</a></small>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="css/image/header/header-5.jpg" class="d-block w-100">
+                            <div id="text-header">
+                                <img src="css/image/icon/page-icon.png" alt="">
+                                <h4>ما با صدای بلند</h4>
+                                <h3> جاده را طی می کنیم</h3>
+                                <small><time>25 خرداد</time>/ برج میلاد</small>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-target="#slider" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </button>
+                    <button type="button" class="carousel-control-next" data-target="#slider" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                        <span class="sr-only">Next</span>
+                    </button>
+
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <section id="ticket">
+            <div class="container">
+                <div class="row">
+                    <div class="ticket-top col-12" data-aos="zoom-in" data-aos-once="true">
+                        <img src="css/image/icon/page-icon.png" alt="">
+                        <h3>کنسرت های آینده</h3>
+                        <h5>بیا ما را به صورت زنده ببینید، زمان خوبی خواهد بود</h5>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="post-ticket" data-aos="fade-left" data-aos-once="true">
+                            <div class="ticket-date">
+                                <h3><time>جمعه / 14 ژوئن</time></h3>
+                            </div>
+                            <div class="ticket-place">
+                                <h2>برج میلاد</h2>
+                                <h3>تهران / ایران</h3>
+                            </div>
+                            <div class="ticket-btn">
+                                <button type="button" class="btn btn-outline-primary">خرید بلیط</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="post-ticket" data-aos="fade-right" data-aos-once="true">
+                            <div class="ticket-date">
+                                <h3><time>سه شنبه / 25 ژوئن</time></h3>
+                            </div>
+                            <div class="ticket-place">
+                                <h2>سیتی سنتر</h2>
+                                <h3>اصفهان / ایران</h3>
+                            </div>
+                            <div class="ticket-btn">
+                                <button type="button" class="btn btn-outline-primary">خرید بلیط</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="post-ticket" data-aos="fade-left" data-aos-once="true">
+                            <div class="ticket-date">
+                                <h3><time>چهارشنبه / 30 ژوئن</time></h3>
+                            </div>
+                            <div class="ticket-place">
+                                <h2>هالن استودیو</h2>
+                                <h3>زوریخ / سوئیس</h3>
+                            </div>
+                            <div class="ticket-btn">
+                                <button type="button" class="btn btn-outline-primary">خرید بلیط</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="post-ticket" data-aos="fade-right" data-aos-once="true">
+                            <div class="ticket-date">
+                                <h3><time>یکشنبه / 4 ژوئیه</time></h3>
+                            </div>
+                            <div class="ticket-place">
+                                <h2>بارکلی کارد آرنا</h2>
+                                <h3>هامبورگ / آلمان</h3>
+                            </div>
+                            <div class="ticket-btn">
+                                <button type="button" class="btn btn-outline-primary end" tabindex="-1" disabled>Sold
+                                    Out</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="post-ticket" data-aos="fade-left" data-aos-once="true">
+                            <div class="ticket-date">
+                                <h3><time>سه شنبه / 6 ژوئیه</time></h3>
+                            </div>
+                            <div class="ticket-place">
+                                <h2>مرسدس بنز آرنا</h2>
+                                <h3>برلین / آلمان</h3>
+                            </div>
+                            <div class="ticket-btn">
+                                <button type="button" class="btn btn-outline-primary">خرید بلیط</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="post-ticket" data-aos="fade-right" data-aos-once="true">
+                            <div class="ticket-date">
+                                <h3><time>یک شنبه / 10 ژوئیه</time></h3>
+                            </div>
+                            <div class="ticket-place">
+                                <h2>استودیو 02</h2>
+                                <h3>لندن / انگلستان</h3>
+                            </div>
+                            <div class="ticket-btn">
+                                <button type="button" class="btn btn-outline-primary">خرید بلیط</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="post-ticket" data-aos="fade-left" data-aos-once="true">
+                            <div class="ticket-date">
+                                <h3><time>سه شنبه / 12 ژوئیه</time></h3>
+                            </div>
+                            <div class="ticket-place">
+                                <h2>استودیو 02</h2>
+                                <h3>لندن / انگلستان</h3>
+                            </div>
+                            <div class="ticket-btn">
+                                <button type="button" class="btn btn-outline-primary">خرید بلیط</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="post-ticket" data-aos="fade-right" data-aos-once="true">
+                            <div class="ticket-date">
+                                <h3><time>یک شنبه / 17 ژوئیه</time></h3>
+                            </div>
+                            <div class="ticket-place">
+                                <h2>سالن فیلارمونی</h2>
+                                <h3>پاریس / فرانسه</h3>
+                            </div>
+                            <div class="ticket-btn">
+                                <button type="button" class="btn btn-outline-primary end" tabindex="-1" disabled>Sold
+                                    out</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="post-ticket" data-aos="fade-left" data-aos-once="true">
+                            <div class="ticket-date">
+                                <h3><time>پنجشنبه / 21 ژوئن</time></h3>
+                            </div>
+                            <div class="ticket-place">
+                                <h2>آویکی آرنا</h2>
+                                <h3>استکهلم / سوئد</h3>
+                            </div>
+                            <div class="ticket-btn">
+                                <button type="button" class="btn btn-outline-primary">خرید بلیط</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="post-ticket" data-aos="fade-right" data-aos-once="true">
+                            <div class="ticket-date">
+                                <h3><time>دوشنبه / 25 ژوئیه</time></h3>
+                            </div>
+                            <div class="ticket-place">
+                                <h2>مالمو آرنا</h2>
+                                <h3>میلان / ایتالیا</h3>
+                            </div>
+                            <div class="ticket-btn">
+                                <button type="button" class="btn btn-outline-primary">خرید بلیط</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="post-ticket" data-aos="fade-left" data-aos-once="true">
+                            <div class="ticket-date">
+                                <h3><time>دوشنبه / 1 آگوست</time></h3>
+                            </div>
+                            <div class="ticket-place">
+                                <h2>سالن مندلی بی</h2>
+                                <h3>لاس وگاس / ایالت متحده آمریکا</h3>
+                            </div>
+                            <div class="ticket-btn">
+                                <button type="button" class="btn btn-outline-primary">خرید بلیط</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="post-ticket" data-aos="fade-right" data-aos-once="true">
+                            <div class="ticket-date">
+                                <h3><time>شنبه / 5 آگوست</time></h3>
+                            </div>
+                            <div class="ticket-place">
+                                <h2>تالار کنسرت والت دیزنی</h2>
+                                <h3> لس آنجلس / ایالت متحده آمریکا</h3>
+                            </div>
+                            <div class="ticket-btn">
+                                <button type="button" class="btn btn-outline-primary">خرید بلیط</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="creat-album">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-cratalbum" data-aos="zoom-in" data-aos-once="true">
+                        <img src="css/image/icon/page-icon.png"><br>
+                        <h2>خرید فول آلبوم</h2><br>
+                        <h4>ما با صدای بلند جاده را طی می کنیم. واقعا بلند.</h4><br>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="services-item" data-aos="fade-up" data-aos-duration="900" data-aos-once="true">
+                            <img src="css/image/service/service5.jpg">
+                            <h2 class="mt-4">PIZZA</h2>
+                            <table class="table-album">
+                                <tr>
+                                    <th>سال انتشار :</th>
+                                    <td>2020</td>
+                                </tr>
+                                <tr>
+                                    <th>تعداد موزیک :</th>
+                                    <td>13</td>
+                                </tr>
+                                <tr>
+                                    <th>تعداد موزیک ویدئو :</th>
+                                    <td>8</td>
+                                </tr>
+                                <tr>
+                                    <th>هنرمندان مهمان :</th>
+                                    <td><a href="#"> Billie Eilish</a></td>
+                                    <td><a href="#"> Travis Scott</a></td>
+                                    <td><a href="#"> Ariana Grande</a></td>
+                                    <td><a href="#"> Justin Bieber</a></td>
+                                    <td><a href="#"> Mehrad hidden</a></td>
+                                </tr>
+                            </table>
+                            <button type="button" class="btn btn-outline-primary">مشاهده بیشتر</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="services-item" data-aos="fade-up" data-aos-duration="900" data-aos-once="true">
+                            <img src="css/image/service/service4.jpg">
+                            <h2 class="mt-4">LIKE</h2>
+                            <table class="table-album">
+                                <tr>
+                                    <th>سال انتشار :</th>
+                                    <td>2021</td>
+                                </tr>
+                                <tr>
+                                    <th>تعداد موزیک :</th>
+                                    <td>18</td>
+                                </tr>
+                                <tr>
+                                    <th>تعداد موزیک ویدئو :</th>
+                                    <td>10</td>
+                                </tr>
+                                <tr>
+                                    <th>هنرمندان مهمان :</th>
+                                    <td><a href="#"> Bahram</a></td>
+                                    <td><a href="#"> Reza Pishro</a></td>
+                                    <td><a href="#"> Justin Bieber</a></td>
+                                    <td><a href="#"> Jony</a></td>
+                                    <td><a href="#"> Selena Gomez</a></td>
+                                </tr>
+                            </table>
+                            <button type="button" class="btn btn-outline-primary">مشاهده بیشتر</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="services-item" data-aos="fade-up" data-aos-duration="900" data-aos-once="true">
+                            <img src="css/image/service/service3.jpg">
+                            <h2 class="mt-4">PARADISE</h2>
+                            <table class="table-album">
+                                <tr>
+                                    <th>سال انتشار :</th>
+                                    <td>2016</td>
+                                </tr>
+                                <tr>
+                                    <th>تعداد موزیک :</th>
+                                    <td>15</td>
+                                </tr>
+                                <tr>
+                                    <th>تعداد موزیک ویدئو :</th>
+                                    <td>12</td>
+                                </tr>
+                                <tr>
+                                    <th>هنرمندان مهمان :</th>
+                                    <td><a href="#"> Selena Gomez</a></td>
+                                    <td><a href="#"> Justin Bieber</a></td>
+                                    <td><a href="#"> Eminem</a></td>
+                                    <td><a href="#"> Mehrad hidden</a></td>
+                                    <td><a href="#"> Jony</a></td>
+                                </tr>
+                            </table>
+                            <button type="button" class="btn btn-outline-primary">مشاهده بیشتر</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="service">
+            <div class="container">
+                <div class="row">
+                    <img src="css/image/icon/page-icon.png" alt="" data-aos="fade-left" data-aos-duration="500"
+                        data-aos-once="true">
+                    <h2 data-aos="fade-left" data-aos-duration="500" data-aos-once="true">سرویس های ما</h2>
+                    <div class="col-sm-12 col-lg-6">
+                        <div class="media" data-aos="fade-up" data-aos-duration="500" data-aos-once="true">
+                            <span><i class="fas fa-cart-arrow-down"></i></span>
+                            <h2>بازدید از فروشگاه</h2>
+                            <p>ارسال سریع و کالای با کیفیت در فروشگاهای زنجیره ای نویز</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-6">
+                        <div class="media" data-aos="fade-up" data-aos-duration="500" data-aos-once="true">
+                            <span><i class="fas fa-address-card"></i></span>
+                            <h2>دریافت کارت هواداری</h2>
+                            <p>با دریافت این کارت عضو کانال هواداری ما شوید</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-6">
+                        <div class="media" data-aos="fade-up" data-aos-duration="500" data-aos-once="true">
+                            <span><i class="fas fa-money-bill-wave-alt"></i></span>
+                            <h2>خرید بلیط های جایگاه VIP</h2>
+                            <p>در بهترین جایگاه سالن کنسرت های سراسر دنیا از موسیقی لذت ببرید</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-6">
+                        <div class="media" data-aos="fade-up" data-aos-duration="500" data-aos-once="true">
+                            <span><i class="fas fa-gift"></i></span>
+                            <h2>شرکت در قرعه کشی</h2>
+                            <p>با شرکت در قرعه کشی شانس خود را امتحان کنید </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="data">
+            <div class="container">
+                <img src="css/image/icon/page-icon.png" alt="" data-aos="zoom-in-up" data-aos-once="true">
+                <h2 data-aos="zoom-in-up" data-aos-once="true">آمار و ارقام</h2>
+                <div class="row">
+                    <div class="col-ms-12 col-md-6 col-lg-3 data">
+                        <span id="sell-album" data-aos="zoom-in" data-aos-duration="1000"
+                            data-aos-once="true">189</span>
+                        <h4>تعداد آلبوم های فروش رفته امروز</h4>
+                    </div>
+                    <div class="col-ms-12 col-md-6 col-lg-3 data">
+                        <span id="sell-album2" data-aos="zoom-in" data-aos-duration="1000"
+                            data-aos-once="true">1552</span>
+                        <h4>تعداد آلبوم های فروش رفته طی یک هفته</h4>
+                    </div>
+                    <div class="col-ms-12 col-md-6 col-lg-3 data">
+                        <span id="sell-ticket" data-aos="zoom-in" data-aos-duration="1000"
+                            data-aos-once="true">135</span>
+                        <h4>تعداد بلیت های فروش رفته امروز</h4>
+                    </div>
+                    <div class="col-ms-12 col-md-6 col-lg-3 data">
+                        <span id="sell-ticket2" data-aos="zoom-in" data-aos-duration="1000"
+                            data-aos-once="true">1348</span>
+                        <h4>تعداد بلیت های فروش رفته طی یک هفته</h4>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="chart">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <img src="css/image/icon/page-icon.png" data-aos="fade-right" data-aos-once="true">
+                        <h2 data-aos="fade-left" data-aos-once="true">رضایت از پیش فروش آلبوم</h2>
+                        <p data-aos="fade-right" data-aos-once="true"> درصد رضایت کانون هواداری از آلبوم های خریداری شده
+                        </p>
+                        <div id="chart" class="chard">
+                            <div class="progress my-4 chart1">
+                                <div class="progress-bar" id="pizza">PIZZA <span>92%</span></div>
+                            </div>
+                            <div class="progress my-4 chart2">
+                                <div class="progress-bar" id="like">LIKE <span>52%</span></div>
+                            </div>
+                            <div class="progress my-4 chart3">
+                                <div class="progress-bar" id="Paradise">PARADISE <span>77%</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="post">
+            <div class="container">
+                <div class="row">
+                    <img src="css/image/icon/page-icon.png" data-aos="zoom-in-left" data-aos-once="true">
+                    <h2 class="col-12" data-aos="zoom-in-left" data-aos-once="true">محصولات فروشگاه</h2>
+                    <div class="col-12">
+                        <div class="list-group">
+                            <a href="#all" class="list-group-item list-group-item-action btn active" data-toggle="list"
+                                data-aos="zoom-out-up" data-aos-once="true" id="every">همه</a>
+                            <a href="#percussion" class="list-group-item list-group-item-action btn" data-toggle="list"
+                                data-aos="zoom-out-up" data-aos-once="true" id="zarbati">ضربتی</a>
+                            <a href="#wind" class="list-group-item list-group-item-action btn" data-toggle="list"
+                                data-aos="zoom-out-up" data-aos-once="true" id="bady">بادی</a>
+                            <a href="#string" class="list-group-item list-group-item-action btn" data-toggle="list"
+                                data-aos="zoom-out-up" data-aos-once="true" id="reshte">رشته
+                                ایی</a>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="tab-content">
+                            <div class="tab-pane active show" id="all">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-6 col-lg-4">
+                                            <div class="post" data-aos="fade-up" data-aos-duration="1000"
+                                                data-aos-once="true">
+                                                <img src="css/image/guitar/Guitar white.png">
+                                                <h4>گیتار</h4>
+                                                <h6>رشته ایی</h6>
+                                                <div class="post-hover">
+                                                    <table>
+                                                        <tr>
+                                                            <th>آیدی :</th>
+                                                            <td>352569</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>مدل :</th>
+                                                            <td>YAMAHA</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>رنگ :</th>
+                                                            <td>سفید</td>
+                                                        </tr>
+                                                    </table>
+                                                    <button type="button" class="btn btn-primary">مشاهده بیشتر</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-lg-4">
+                                            <div class="post" data-aos="fade-up" data-aos-duration="1000"
+                                                data-aos-once="true">
+                                                <img src="css/image/piano/Piano black.png">
+                                                <h4>پیانو</h4>
+                                                <h6>ضربتی</h6>
+                                                <div class="post-hover">
+                                                    <table>
+                                                        <tr>
+                                                            <th>آیدی :</th>
+                                                            <td>54376</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>مدل :</th>
+                                                            <td>B</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>رنگ :</th>
+                                                            <td>قهوه ایی</td>
+                                                        </tr>
+                                                    </table>
+                                                    <button type="button" class="btn btn-primary">مشاهده بیشتر</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-lg-4">
+                                            <div class="post" data-aos="fade-up" data-aos-duration="1000"
+                                                data-aos-once="true">
+                                                <img src="css/image/clarinet/clarinet black-gold.png">
+                                                <h4>کلارینت</h4>
+                                                <h6>بادی</h6>
+                                                <div class="post-hover">
+                                                    <table>
+                                                        <tr>
+                                                            <th>آیدی :</th>
+                                                            <td>259874</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>مدل :</th>
+                                                            <td>YAMAHA</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>رنگ :</th>
+                                                            <td>طلایی و مشکی</td>
+                                                        </tr>
+                                                    </table>
+                                                    <button type="button" class="btn btn-primary">مشاهده بیشتر</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-lg-4">
+                                            <div class="post" data-aos="fade-up" data-aos-duration="1000"
+                                                data-aos-once="true">
+                                                <img src="css/image/Electric guitar/Electric guitar black-gold.png">
+                                                <h4>گیتار الکتریکی</h4>
+                                                <h6>رشته ایی</h6>
+                                                <div class="post-hover">
+                                                    <table>
+                                                        <tr>
+                                                            <th>آیدی :</th>
+                                                            <td>485123</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>مدل :</th>
+                                                            <td>YAMAHA</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>رنگ :</th>
+                                                            <td>طلایی و مشکی</td>
+                                                        </tr>
+                                                    </table>
+                                                    <button type="button" class="btn btn-primary">مشاهده بیشتر</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-lg-4">
+                                            <div class="post" data-aos="fade-up" data-aos-duration="1000"
+                                                data-aos-once="true">
+                                                <img src="css/image/trumpet/trumpet black-gold.png">
+                                                <h4>تراپت</h4>
+                                                <h6>بادی</h6>
+                                                <div class="post-hover">
+                                                    <table>
+                                                        <tr>
+                                                            <th>آیدی :</th>
+                                                            <td>945612</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>مدل :</th>
+                                                            <td>YAMAHA</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>رنگ :</th>
+                                                            <td>طلایی و مشکی</td>
+                                                        </tr>
+                                                    </table>
+                                                    <button type="button" class="btn btn-primary">مشاهده بیشتر</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-lg-4">
+                                            <div class="post" data-aos="fade-up" data-aos-duration="1000"
+                                                data-aos-once="true">
+                                                <img src="css/image/violin/Violin black.png">
+                                                <h4>ویالون</h4>
+                                                <h6>رشته ایی</h6>
+                                                <div class="post-hover">
+                                                    <table>
+                                                        <tr>
+                                                            <th>آیدی :</th>
+                                                            <td>164823</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>مدل :</th>
+                                                            <td>YAMAHA</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>رنگ :</th>
+                                                            <td>مشکی</td>
+                                                        </tr>
+                                                    </table>
+                                                    <button type="button" class="btn btn-primary">مشاهده بیشتر</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 col-md-6 col-lg-4">
+                                            <div class="post" data-aos="fade-up" data-aos-duration="1000"
+                                                data-aos-once="true">
+                                                <img src="css/image/drum/drum black-red.png">
+                                                <h4>درام</h4>
+                                                <h6>ضربتی</h6>
+                                                <div class="post-hover">
+                                                    <table>
+                                                        <tr>
+                                                            <th>آیدی :</th>
+                                                            <td>155364</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>مدل :</th>
+                                                            <td>YAMAHA</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th>رنگ :</th>
+                                                            <td>قرمز و مشکی</td>
+                                                        </tr>
+                                                    </table>
+                                                    <button type="button" class="btn btn-primary">مشاهده بیشتر</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="tab-pane" id="percussion">
+                                <div class="col-sm-12 col-md-6 col-lg-4">
+                                    <div class="post">
+                                        <img src="css/image/piano/Piano black.png">
+                                        <h4>پیانو</h4>
+                                        <h6>ضربتی</h6>
+                                        <div class="post-hover">
+                                            <table>
+                                                <tr>
+                                                    <th>آیدی :</th>
+                                                    <td>54376</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>مدل :</th>
+                                                    <td>B</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>رنگ :</th>
+                                                    <td>قهوه ایی</td>
+                                                </tr>
+                                            </table>
+                                            <button type="button" class="btn btn-primary">مشاهده بیشتر</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-6 col-lg-4">
+                                    <div class="post">
+                                        <img src="css/image/drum/drum black-red.png">
+                                        <h4>درام</h4>
+                                        <h6>ضربتی</h6>
+                                        <div class="post-hover">
+                                            <table>
+                                                <tr>
+                                                    <th>آیدی :</th>
+                                                    <td>155364</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>مدل :</th>
+                                                    <td>YAMAHA</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>رنگ :</th>
+                                                    <td>قرمز و مشکی</td>
+                                                </tr>
+                                            </table>
+                                            <button type="button" class="btn btn-primary">مشاهده بیشتر</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="wind">
+                                <div class="col-sm-12 col-md-6 col-lg-4">
+                                    <div class="post">
+                                        <img src="css/image/clarinet/clarinet black-gold.png">
+                                        <h4>کلارینت</h4>
+                                        <h6>بادی</h6>
+                                        <div class="post-hover">
+                                            <table>
+                                                <tr>
+                                                    <th>آیدی :</th>
+                                                    <td>259874</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>مدل :</th>
+                                                    <td>YAMAHA</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>رنگ :</th>
+                                                    <td>طلایی و مشکی</td>
+                                                </tr>
+                                            </table>
+                                            <button type="button" class="btn btn-primary">مشاهده بیشتر</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-6 col-lg-4">
+                                    <div class="post">
+                                        <img src="css/image/trumpet/trumpet black-gold.png">
+                                        <h4>تراپت</h4>
+                                        <h6>بادی</h6>
+                                        <div class="post-hover">
+                                            <table>
+                                                <tr>
+                                                    <th>آیدی :</th>
+                                                    <td>945612</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>مدل :</th>
+                                                    <td>YAMAHA</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>رنگ :</th>
+                                                    <td>طلایی و مشکی</td>
+                                                </tr>
+                                            </table>
+                                            <button type="button" class="btn btn-primary">مشاهده بیشتر</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="string">
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="post">
+                                        <img src="css/image/guitar/Guitar white.png">
+                                        <h4>گیتار</h4>
+                                        <h6>رشته ایی</h6>
+                                        <div class="post-hover">
+                                            <table>
+                                                <tr>
+                                                    <th>آیدی :</th>
+                                                    <td>352569</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>مدل :</th>
+                                                    <td>YAMAHA</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>رنگ :</th>
+                                                    <td>سفید</td>
+                                                </tr>
+                                            </table>
+                                            <button type="button" class="btn btn-primary">مشاهده بیشتر</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="post">
+                                        <img src="css/image/Electric guitar/Electric guitar black-gold.png">
+                                        <h4>گیتار الکتریکی</h4>
+                                        <h6>رشته ایی</h6>
+                                        <div class="post-hover">
+                                            <table>
+                                                <tr>
+                                                    <th>آیدی :</th>
+                                                    <td>485123</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>مدل :</th>
+                                                    <td>YAMAHA</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>رنگ :</th>
+                                                    <td>طلایی و مشکی</td>
+                                                </tr>
+                                            </table>
+                                            <button type="button" class="btn btn-primary">مشاهده بیشتر</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="post">
+                                        <img src="css/image/violin/Violin black.png">
+                                        <h4>ویالون</h4>
+                                        <h6>رشته ایی</h6>
+                                        <div class="post-hover">
+                                            <table>
+                                                <tr>
+                                                    <th>آیدی :</th>
+                                                    <td>164823</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>مدل :</th>
+                                                    <td>YAMAHA</td>
+                                                </tr>
+                                                <tr>
+                                                    <th>رنگ :</th>
+                                                    <td>مشکی</td>
+                                                </tr>
+                                            </table>
+                                            <button type="button" class="btn btn-primary">مشاهده بیشتر</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="artist">
+            <img src="css/image/icon/page-icon.png" id="page-icon" data-aos="fade-right" data-aos-once="true">
+            <h3 data-aos="fade-right" data-aos-once="true">آرتیست ها</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-xl-3">
+                        <div class="artist-post" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
+                            <div class="artist-img">
+                                <img src="css/image/artist/artist1.jpg">
+                                <div class="text-artist" id="text">
+                                    <h2>امیر منتظری</h2>
+                                    <h4>خواننده</h4>
+                                    <div class="social">
+                                        <i class="fab fa-facebook facebook"></i>
+                                        <i class="fab fa-youtube youtube"></i>
+                                        <i class="fab fa-instagram instagram"></i>
+                                        <i class="fab fa-twitter twitter"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-xl-3">
+                        <div class="artist-post" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"
+                            data-aos-once="true">
+                            <div class="artist-img">
+                                <img src="css/image/artist/artist2.jpg">
+                                <div class="text-artist">
+                                    <h2>سهیل ساعدی</h2>
+                                    <h4>خواننده</h4>
+                                    <div class="social">
+                                        <i class="fab fa-facebook facebook"></i>
+                                        <i class="fab fa-youtube youtube"></i>
+                                        <i class="fab fa-instagram instagram"></i>
+                                        <i class="fab fa-twitter twitter"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-xl-3">
+                        <div class="artist-post" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"
+                            data-aos-once="true">
+                            <div class="artist-img">
+                                <img src="css/image/artist/artist3.jpg">
+                                <div class="text-artist">
+                                    <h2>مهراد صابری</h2>
+                                    <h4>پیانیست</h4>
+                                    <div class="social">
+                                        <i class="fab fa-facebook facebook"></i>
+                                        <i class="fab fa-youtube youtube"></i>
+                                        <i class="fab fa-instagram instagram"></i>
+                                        <i class="fab fa-twitter twitter"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-xl-3">
+                        <div class="artist-post" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"
+                            data-aos-once="true">
+                            <div class="artist-img">
+                                <img src="css/image/artist/artist4.jpg">
+                                <div class="text-artist">
+                                    <h2>بردیا آریایی</h2>
+                                    <h4>گیتاریست</h4>
+                                    <div class="social">
+                                        <i class="fab fa-facebook facebook"></i>
+                                        <i class="fab fa-youtube youtube"></i>
+                                        <i class="fab fa-instagram instagram"></i>
+                                        <i class="fab fa-twitter twitter"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="spanser">
+            <div class="container">
+                <img src="css/image/icon/page-icon.png" alt="" data-aos="fade-left" data-aos-once="true">
+                <h2 data-aos="fade-right" data-aos-once="true">
+                    اسپانسر های ما</h2>
+                <div class="row">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <img src="css/image/spanser/spanser (1).jpg">
+                        </div>
+                        <div class="item">
+                            <img src="css/image/spanser/spanser (2).jpg">
+                        </div>
+                        <div class="item">
+                            <img src="css/image/spanser/spanser (3).jpg">
+                        </div>
+                        <div class="item">
+                            <img src="css/image/spanser/spanser (4).jpg">
+                        </div>
+                        <div class="item">
+                            <img src="css/image/spanser/spanser (5).jpg">
+                        </div>
+                        <div class="item">
+                            <img src="css/image/spanser/spanser (6).jpg">
+                        </div>
+                        <div class="item">
+                            <img src="css/image/spanser/spanser (7).jpg">
+                        </div>
+                        <div class="item">
+                            <img src="css/image/spanser/spanser (8).jpg">
+                        </div>
+                        <div class="item">
+                            <img src="css/image/spanser/spanser (9).jpg">
+                        </div>
+                        <div class="item">
+                            <img src="css/image/spanser/spanser (10).jpg">
+                        </div>
+                        <div class="item">
+                            <img src="css/image/spanser/spanser (11).jpg">
+                        </div>
+                        <div class="item">
+                            <img src="css/image/spanser/spanser (12).jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-xl-3">
+                    <section id="about">
+                        <h3>درباره ما</h3>
+                        <h6>گروه موسیقی "Noize" یکی از نام‌های برجسته در دنیای موسیقی است که با ترکیب منحصر به فرد از
+                            سبک‌های پاپ و مدرن، خود را در دل شنوندگان جایگزین کرده است. این گروه در سال 2015 در شهر
+                            تهران تشکیل شد و از همان ابتدا توانست توجه علاقه‌مندان را به خود جلب نماید.</h6>
+                    </section>
+                </div>
+                <div class="col-sm-12 col-md-6 col-xl-3">
+                    <section id="stor">
+                        <h3>فروشگاه اینترنتی</h3>
+                        <ul>
+                            <li><span><i class="fas fa-angle-left"></i></span><a href="#">گیتار</a></li>
+                            <li><span><i class="fas fa-angle-left"></i></span><a href="#">پیانو</a></li>
+                            <li><span><i class="fas fa-angle-left"></i></span><a href="#">کلارینت</a></li>
+                            <li><span><i class="fas fa-angle-left"></i></span><a href="#">ویالون</a></li>
+                        </ul>
+                    </section>
+                </div>
+                <div class="col-sm-12 col-md-6 col-xl-3">
+                    <section id="social">
+                        <h3>ارتباط با ما</h3>
+                        <h5 id="addres">تهران - محمودیه - خیابان ولیعهد پلاک 24</h5>
+                        <h5 id="telephone">
+                            تلفن : 36684951-021
+                        </h5>
+                        <h5 id="email-office">
+                            ایمیل : Noize_musicoffice@gmail.com
+                        </h5>
+                        <div id="noize-socail">
+                            <span><i class="fab fa-facebook-square"></i></span>
+                            <span><i class="fab fa-instagram"></i></span>
+                            <span><i class="fab fa-twitter"></i></span>
+                            <span><i class="fab fa-youtube"></i></span>
+                            <span><i class="fab fa-telegram"></i></span>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-sm-12 col-md-6 col-xl-3">
+                    <section id="email-user">
+                        <h3>خبرنامه</h3>
+                        <h5>برای عضویت در باشگاه هواداران و ثبت نظرات و دریافت بلیت VIP و اطلاع از آخرین اخبار وارد شوید
+                            همچنین میتوان با دنبال کردن ما در اینستاگرام و عضویت در کانال تلگرامی ما از تخفیف %30 برای
+                            خرید از فروشگاه ما دریافت کنید .</h5>
+                        <form>
+                            <input type="email" name="email" id="eamil" placeholder="ایمیل خود را وارد کنید">
+                            <button type="button" id="btn-email">عضویت</button>
+                        </form>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <div id="copy-right">
+            <h2>کلیه محتویات این سایت به گروه موسیقی Noize تعلق دارد &copy; <span id="deta-copy"></span></h2>
+        </div>
+    </footer>
+    <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/Noize.java-script.js"></script>
+
+</body>
+
+</html>
